@@ -327,3 +327,49 @@ footer p {
 
     }
 }
+
+@media screen and (max-width: 414px) {
+    .list {
+        font-size: 19px;
+    }
+
+    .list ul {
+        position: relative;
+        top: 80px;
+        padding-bottom: 30px;
+    }
+
+    .form form {
+        width: 190px;
+        font-size: 19px;
+    }
+
+    .form form h2 {
+        font-size: 22px;
+    }
+
+    .section-2 {
+        height: 1224px;
+    }
+
+    .section-2 p {
+        width: 350px;
+    }
+
+    .section-final {
+        height: 2050px;
+    }
+
+    .section-final .redirecionamento {
+        display: block;
+    }
+
+    .section-final p {
+        width: 100%;
+        margin-bottom: 40px
+    }
+
+    footer {
+        font-size: 25px;
+    }
+}
